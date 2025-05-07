@@ -50,3 +50,4 @@ out/
 
 # customer
 **/config.h
+**/config.cppm

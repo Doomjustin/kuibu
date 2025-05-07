@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.29)
 
-project(CppTemplate
+project(KUI_BU
     VERSION 0.0.1
     LANGUAGES C CXX
 )
@@ -29,7 +29,6 @@ find_lto(CXX)
 include(InstallGSL)
 include(InstallFmt)
 include(InstallSpdlog)
-# include(InstallCatch2)
 include(InstallDoctest)
 include(InstallPybind11)
 
