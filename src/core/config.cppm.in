@@ -1,6 +1,6 @@
-export module kb.config;
+export module toys.config;
 
-namespace kb {
+namespace toys {
 
 constexpr auto VERSION = "@PROJECT_VERSION@";
 
@@ -14,4 +14,4 @@ constexpr auto SOURCE_DIR = "@PROJECT_SOURCE_DIR@/src";
 
 constexpr auto RESOURCE_DIR = "@PROJECT_SOURCE_DIR@/src/resource";
 
-} // namespace kb
+} // namespace toys
