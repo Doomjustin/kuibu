@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.29)
 
-project(KUI_BU
+project(TOYS
     VERSION 0.0.1
     LANGUAGES C CXX
 )
@@ -32,5 +32,4 @@ include(InstallSpdlog)
 include(InstallDoctest)
 include(InstallPybind11)
 
-add_subdirectory(app)
 add_subdirectory(src)
