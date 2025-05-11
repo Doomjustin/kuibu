@@ -26,14 +26,6 @@ void prompt(int times)
          << "\n> " << flush;
 }
 
-// int random(int min, int max)
-// {
-//     static random_device engine{};
-//     static mt19937 generator{ engine() };
-//     uniform_int_distribution<int> distribution{ min, max };
-//     return distribution(generator);
-// }
-
 string read_input()
 {
     string input;

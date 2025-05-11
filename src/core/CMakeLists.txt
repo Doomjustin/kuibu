@@ -7,6 +7,7 @@ add_library(toys::core ALIAS toys_core)
 target_sources(toys_core
     PUBLIC FILE_SET CXX_MODULES
     FILES
+        algorithm.cppm
         config.cppm
         random.cppm
 )

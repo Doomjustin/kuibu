@@ -31,5 +31,6 @@ include(InstallFmt)
 include(InstallSpdlog)
 include(InstallDoctest)
 include(InstallPybind11)
+include(InstallFltk)
 
 add_subdirectory(src)
