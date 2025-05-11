@@ -251,11 +251,11 @@ private:
                 break;
             }
 
-            increate_xy(x, y);
+            increase_xy(x, y);
         }
     }
 
-    static void increate_xy(int& x, int& y)
+    static void increase_xy(int& x, int& y)
     {
         y += INTERVAL;
         if (y >= 600) {
